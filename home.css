@@ -28,6 +28,12 @@ header {
     cursor: pointer;
 }
 
+.first-btn:hover {
+    background-color: rgb(80, 80, 221);
+    color: white;
+    
+}
+
 main {
     height: 60vh;
     display: flex;
@@ -52,6 +58,11 @@ main {
     border: 0;
     padding: 0.5em 1.5em 0.5em 0.5em;
     cursor: pointer;
+}
+
+.buttons-container > button:hover {
+    background-color: white;
+    color: red;
 }
 
 footer {
